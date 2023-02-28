@@ -21,7 +21,7 @@ if (isNaN(yearPrompt) || yearPrompt === null) {
 }
 
 if (confirm("Do you want a custom profile picture?")) {
-    var ppic = prompt("Please enter the file name of the picture. (Ex: wow.jpg)", " ");
+    var ppic = prompt("Please enter the file name of the picture. (Ex: wow.jpg)");
     alert("Profile picture has been updated.");
 } else {
     alert("No image has been set.");
