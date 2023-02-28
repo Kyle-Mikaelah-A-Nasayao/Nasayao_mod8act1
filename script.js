@@ -34,4 +34,9 @@ document.getElementById("gender").innerHTML = gender;
 document.getElementById("desc").innerHTML = desc;
 document.getElementById("year").innerHTML = year;
 document.getElementById("age").innerHTML = age;
-document.getElementById("ppic").src = ppic;
+
+if (ppic == null) {
+    document.getElementById("ppic").src = "prof.png";
+} else {
+    document.getElementById("ppic").src = ppic;
+}
